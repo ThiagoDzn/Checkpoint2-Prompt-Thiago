@@ -1,0 +1,98 @@
+{
+  "classificacao_risco": [
+    {
+      "input": "A Petrobras encerrou o trimestre com divida liquida/EBITDA de 1,1x e caixa de R62 bilhoes.",
+      "esperado": "BAIXO"
+    },
+    {
+      "input": "A varejista acumula divida bruta de R4,8 bilhoes com vencimentos em 2025 e EBITDA negativo.",
+      "esperado": "CRITICO"
+    },
+    {
+      "input": "Banco regional com indice de Basileia de 14,5% e inadimplencia controlada em 2,3%.",
+      "esperado": "BAIXO"
+    },
+    {
+      "input": "Incorporadora com alavancagem de 3,8x e funding de curto prazo representando 40% da divida.",
+      "esperado": "ALTO"
+    },
+    {
+      "input": "Empresa de alimentos com divida/EBITDA de 2,1x e fluxo de caixa positivo.",
+      "esperado": "MEDIO"
+    }
+  ],
+  "extracao_indicadores": [
+    {
+      "input": "No 2T24, a Vale reportou receita liquida de R38,5 bilhoes e EBITDA de R17,2 bilhoes.",
+      "esperado": {
+        "receita": "R,5B",
+        "lucro_liquido": null,
+        "margem": null,
+        "divida": null,
+        "ebitda": "R,2B"
+      }
+    },
+    {
+      "input": "O Itau registrou lucro liquido de R9,8 bilhoes no trimestre.",
+      "esperado": {
+        "receita": null,
+        "lucro_liquido": "R,8B",
+        "margem": null,
+        "divida": null,
+        "ebitda": null
+      }
+    },
+    {
+      "input": "A divida liquida da Embraer recuou para US186 milhoes.",
+      "esperado": {
+        "receita": null,
+        "lucro_liquido": null,
+        "margem": null,
+        "divida": "US",
+        "ebitda": null
+      }
+    },
+    {
+      "input": "Magazine Luiza fechou com receita de R14,3 bilhoes e lucro de R128 milhoes e margem de 0,9%.",
+      "esperado": {
+        "receita": "R,3B",
+        "lucro_liquido": "R",
+        "margem": "0,9%",
+        "divida": null,
+        "ebitda": null
+      }
+    },
+    {
+      "input": "A Ambev apresentou receita de R22,1 bilhoes, EBITDA de R7,4 bilhoes e margem de 33,5%.",
+      "esperado": {
+        "receita": "R,1B",
+        "lucro_liquido": null,
+        "margem": "33,5%",
+        "divida": null,
+        "ebitda": "R,4B"
+      }
+    }
+  ],
+  "sumarizacao_relatorio": [
+    {
+      "input": "No 3T24, a WEG registrou receita de R8,1 bilhoes, crescimento de 14,3%. O EBITDA atingiu R1,7 bilhao com margem de 21%.",
+      "esperado": "bullet points sobre WEG"
+    },
+    {
+      "input": "O Bradesco anunciou corte de 5.000 postos e fechamento de 200 agencias, gerando economia de R1,2 bilhao por ano.",
+      "esperado": "bullet points sobre Bradesco"
+    },
+    {
+      "input": "A Localiza reportou crescimento de 22% no lucro para R910 milhoes. A frota atingiu 248 mil veiculos.",
+      "esperado": "bullet points sobre Localiza"
+    },
+    {
+      "input": "A Nubank atingiu 100 milhoes de clientes. A receita cresceu 57% para US2,8 bilhoes no 2T24.",
+      "esperado": "bullet points sobre Nubank"
+    },
+    {
+      "input": "A Suzano registrou producao recorde de 2,8 milhoes de toneladas de celulose. Receita de R9,3 bilhoes.",
+      "esperado": "bullet points sobre Suzano"
+    }
+  ]
+}

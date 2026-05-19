@@ -1,0 +1,13 @@
+﻿tarefa,tecnica,acuracia_media,tokens_medios,tempo_medio_ms
+classificacao_risco,chain_of_thought,0.48,276.0,31891.74
+classificacao_risco,few_shot,0.4,241.2,11349.688
+classificacao_risco,role_prompting,0.28,319.0,14700.938
+classificacao_risco,zero_shot,0.28,150.4,10906.824
+extracao_indicadores,chain_of_thought,0.76,365.2,31331.62
+extracao_indicadores,few_shot,0.66,323.8,22825.188
+extracao_indicadores,role_prompting,0.8,390.6,23702.284
+extracao_indicadores,zero_shot,0.72,250.0,19076.544
+sumarizacao_relatorio,chain_of_thought,0.0,308.2,29117.868
+sumarizacao_relatorio,few_shot,0.0,256.6,21715.042
+sumarizacao_relatorio,role_prompting,0.0,422.0,29521.93
+sumarizacao_relatorio,zero_shot,0.0,227.8,21461.922

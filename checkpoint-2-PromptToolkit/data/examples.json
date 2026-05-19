@@ -1,0 +1,32 @@
+{
+  "classificacao_risco": [
+    {
+      "input": "Empresa com divida/EBITDA de 1,2x e caixa robusto.",
+      "output": "BAIXO"
+    },
+    {
+      "input": "Companhia com alavancagem de 4x e vencimento em 6 meses.",
+      "output": "ALTO"
+    },
+    {
+      "input": "Startup com burn rate acelerado e sem receita recorrente.",
+      "output": "CRITICO"
+    }
+  ],
+  "extracao_indicadores": [
+    {
+      "input": "Receita de R1,2B e EBITDA de R300M.",
+      "output": "JSON com receita e ebitda"
+    },
+    {
+      "input": "Lucro liquido de R45M com margem de 12%.",
+      "output": "JSON com lucro e margem"
+    }
+  ],
+  "sumarizacao_relatorio": [
+    {
+      "input": "Receita de R2,3B com crescimento de 18%.",
+      "output": "bullet points do resultado"
+    }
+  ]
+}
